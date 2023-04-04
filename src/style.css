@@ -261,28 +261,109 @@ ul li a:hover{
     object-position: center;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-@media only screen and(max-width: 900px){
-    .menu-icon{
-        display: block;
-        cursor: pointer;
-    }
-    .menu-icon .bx{
-        width: 30px;
-    }
-    .nav li{
-        display: none;
-    }
-
+.post-content{
+    margin-top: 4rem !important;
 }
+.sub-heading{
+    font-size: 1.2rem;
+}
+.post-text{
+    font-size: 1rem;
+    line-height: 1.7rem;
+    margin: 1rem 0;
+    text-align: justify;
+}
+/* share */
+.share{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1rem;
+}
+/* blog page */
+.blog-container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    
+}
+.blog-container .blogs{
+    width: 60%;
+    margin-right:40px ;
+}
+.blog-container .cate{
+    width: 40%;
+}
+
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+h1 {
+	text-align: center;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+label {
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+	padding: 5px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	border: none;
+}
+
+input[type="submit"] {
+	background-color: #4CAF50;
+	color: white;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	background-color: #3e8e41;
+}
+
+
+
+/* Responsive */
+@media screen (max-width: 1060px){
+    .container{
+        margin: 0 auto;
+        width: 95%;
+    }
+    .hero-text{
+        width: 100%;
+    }
+}
+
+@media screen (max-width: 800px){
+    .nav{
+        padding: 14px 0;
+    }  
+}
+
+
+
+
+
+
+
+
+
+
+
 
